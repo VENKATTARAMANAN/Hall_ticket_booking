@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "name": "Hall-ticket-booking",
+    "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "/" }]
+  }
